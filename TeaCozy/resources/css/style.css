@@ -1,0 +1,137 @@
+html {
+  background-color: black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-decoration: underline;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  background-color: black;
+  left: 0%;
+  top: 0%;
+  padding-left: 0px;
+  z-index: 1;
+}
+.header img {
+  height: 50px;
+}
+nav {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding-right: 50px;
+}
+span {
+  padding-left: 10px;
+}
+/*
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+}
+*/
+.main {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  /*
+  border: 1px solid seashell;
+  */
+  margin: 10px;
+}
+.main-text{
+  background-color: black;
+  width: 1200px;
+  color: seashell;
+  display: inline-block;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.teamonth {
+  width: 1000px;
+  height: 700px;
+  background-color: black;
+  display: flex;
+  /*
+  border: 1px solid seashell;
+  */
+  font-family: Helvetica;
+  color: seashell;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 25px 100px;
+}
+.month-heading {
+  display: inline-block;
+  width: 1000px;
+  text-align: center;
+}
+.month-list img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 2px;
+}
+.month-list {
+  height: 270px;
+
+  /*
+  justify-content: space-between;
+  */
+  text-align: center;
+
+}
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-flow: wrap;
+  margin: 10px;
+}
+
+.location-header {
+  width: 1200px;
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+  font-size: 35
+}
+
+.location-box {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+  margin: 40px;
+
+
+}
+p {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+h3 {
+  color: seashell;
+  font-family: Helvetica;
+}
